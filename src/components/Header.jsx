@@ -7,7 +7,7 @@ const Header = () => {
     <>
     <header className='flex justify-between items-center py-4 px-8 sm:px-24'>
       <a href="/">
-        <img src="../src/assets/logo.png" alt="jaza & sakeenah" width={150}/>
+        <img src="../../src/assets/logo.png" alt="jaza & sakeenah" width={150}/>
       </a>
 
       <div className='hidden sm:flex gap-4 bg-[#ffffff]'>

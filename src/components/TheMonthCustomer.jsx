@@ -8,7 +8,7 @@ const TheMonthCustomer = () => {
 
         <figure>
           {/* Video here */}
-          <img src="../src/assets/teams/team.jpeg" alt="team image" className='object-cover rounded-t-3xl w-[100%] h-[200px] sm:h-[400px]'/>
+          <img src="../../src/assets/teams/team.jpeg" alt="team image" className='object-cover rounded-t-3xl w-[100%] h-[200px] sm:h-[400px]'/>
 
           <figcaption className='bg-[#105C04] px-8 py-8 text-[#ffffff]'>
             <h3 className='font-bold mb-2'>Mr. Yakub</h3>

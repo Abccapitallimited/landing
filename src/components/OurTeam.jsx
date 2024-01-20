@@ -7,7 +7,7 @@ const OurTeam = () => {
 
       <div className='flex flex-col sm:flex-row items-center text-left gap-8'>
         <figure className='rounded-2xl w-[350px]'>
-          <img src="../src/assets/teams/team.jpeg" alt="team image" className='rounded-t-2xl object-cover w-[100%] h-[250px] object-top'/>
+          <img src="../../src/assets/teams/team.jpeg" alt="team image" className='rounded-t-2xl object-cover w-[100%] h-[250px] object-top'/>
 
           <figcaption className='px-8 py-8 bg-[#64A001] text-[#ffffff]'>
             <h3 className='mb-2'><strong>Lawal </strong>Maryam Ibironke Esq, LL.B  BL.</h3>
@@ -15,7 +15,7 @@ const OurTeam = () => {
           </figcaption>
         </figure>
         <figure className='rounded-2xl w-[350px]'>
-          <img src="../src/assets/teams/team-2.jpeg" alt="team image" className='rounded-t-2xl object-cover w-[100%] h-[250px] object-top'/>
+          <img src="../../src/assets/teams/team-2.jpeg" alt="team image" className='rounded-t-2xl object-cover w-[100%] h-[250px] object-top'/>
 
           <figcaption className='px-8 py-8 bg-[#64A001] text-[#ffffff]'>
             <h3 className='mb-2'><strong>ESV Olaoye </strong>Opeyemi M. Anivs, Rsv.</h3>
@@ -23,7 +23,7 @@ const OurTeam = () => {
           </figcaption>
         </figure>
         <figure className='rounded-2xl w-[350px]'>
-          <img src="../src/assets/teams/team-3.jpeg" alt="team image" className='rounded-t-2xl object-cover w-[100%] h-[250px] object-top'/>
+          <img src="../../src/assets/teams/team-3.jpeg" alt="team image" className='rounded-t-2xl object-cover w-[100%] h-[250px] object-top'/>
 
           <figcaption className='px-8 py-8 bg-[#64A001] text-[#ffffff]'>
             <h3 className='mb-2'><strong>Adewuyi-Lawanson </strong>Kafilat Oyindamola</h3>
@@ -31,7 +31,7 @@ const OurTeam = () => {
           </figcaption>
         </figure>
         <figure className='rounded-2xl w-[350px]'>
-          <img src="../src/assets/teams/team-4.jpeg" alt="team image" className='rounded-t-2xl object-cover w-[100%] h-[250px] object-top'/>
+          <img src="../../src/assets/teams/team-4.jpeg" alt="team image" className='rounded-t-2xl object-cover w-[100%] h-[250px] object-top'/>
 
           <figcaption className='px-8 py-8 bg-[#64A001] text-[#ffffff]'>
             <h3 className='mb-2'><strong>Surv. Okutubo </strong>Adedayo David (MNIS)</h3>
@@ -39,7 +39,7 @@ const OurTeam = () => {
           </figcaption>
         </figure>
         <figure className='rounded-2xl w-[350px]'>
-          <img src="../src/assets/teams/team-5.jpeg" alt="team image" className='rounded-t-2xl object-cover w-[100%] h-[250px] object-top'/>
+          <img src="../../src/assets/teams/team-5.jpeg" alt="team image" className='rounded-t-2xl object-cover w-[100%] h-[250px] object-top'/>
 
           <figcaption className='px-8 py-8 bg-[#64A001] text-[#ffffff]'>
             <h3 className='mb-2'><strong>ESV. Lamidi </strong>Sodiq Akinwande. ANIVS, RSV</h3>

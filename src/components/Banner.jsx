@@ -44,7 +44,7 @@ const Banner = () => {
         </button>
       </div>
       <div className='grow'>
-        <img src="../src/assets/banner_image.png" alt="banner image" width={400} height={300} className='object-contain'/>
+        <img src="../../src/assets/banner_image.png" alt="banner image" width={400} height={300} className='object-contain'/>
       </div>
     </section>
   )
