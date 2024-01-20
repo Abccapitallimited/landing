@@ -32,7 +32,7 @@ const Properties = () => {
         <div className='flex flex-col sm:flex-row items-center text-left gap-8'>
           <div className='bg-[#105C04] rounded-2xl px-4 py-4 grow text-[#ffffff]'>
             <figure className='max-h-[250px] overflow-hidden rounded-2xl relative'>
-              <img src="../../src/assets/banner_image.png" alt="banner image" className='w-[100%]'/>
+              <img src="/assets/banner_image.png" alt="banner image" className='w-[100%]'/>
               <figcaption className='absolute bottom-0 left-0 w-[100%] h-[100%] bg-[#105C04aa] flex flex-col justify-end px-4 py-4'>
                 <h3 className='text-lg font-semibold'>Jaza & Sakeenah <br /> Residential Estate 1</h3>
                 <span>Ilara, Epe, Lagos State, Nigeria</span>
@@ -146,7 +146,7 @@ const Properties = () => {
           
           <div className='bg-[#105C04] rounded-2xl px-4 py-4 grow text-[#ffffff]'>
             <figure className='max-h-[250px] overflow-hidden rounded-2xl relative'>
-              <img src="../../src/assets/banner_image.png" alt="banner image" className='w-[100%]'/>
+              <img src="/assets/banner_image.png" alt="banner image" className='w-[100%]'/>
               <figcaption className='absolute bottom-0 left-0 w-[100%] h-[100%] bg-[#105C04aa] flex flex-col justify-end px-4 py-4'>
                 <h3 className='text-lg font-semibold'>Jaza & Sakeenah <br /> Residential Estate 1</h3>
                 <span>Ilara, Epe, Lagos State, Nigeria</span>
@@ -260,7 +260,7 @@ const Properties = () => {
 
           <div className='bg-[#105C04] rounded-2xl px-4 py-4 grow text-[#ffffff]'>
             <figure className='max-h-[250px] overflow-hidden rounded-2xl relative'>
-              <img src="../../src/assets/banner_image.png" alt="banner image" className='w-[100%]'/>
+              <img src="/assets/banner_image.png" alt="banner image" className='w-[100%]'/>
               <figcaption className='absolute bottom-0 left-0 w-[100%] h-[100%] bg-[#105C04aa] flex flex-col justify-end px-4 py-4'>
                 <h3 className='text-lg font-semibold'>Jaza & Sakeenah <br /> Residential Estate 1</h3>
                 <span>Ilara, Epe, Lagos State, Nigeria</span>

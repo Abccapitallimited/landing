@@ -20,7 +20,7 @@ const HowItWorks = () => {
         </div>
 
         <div className='flex flex-col sm:flex-row items-center justify-center sm:justify-normal text-left gap-8 py-12'>
-          <img src="../../src/assets/image 7.png" alt="banner image" width={400} className='shrink-0 object-contain'/>
+          <img src="/assets/image 7.png" alt="banner image" width={400} className='shrink-0 object-contain'/>
           <div>
             <h2 className='text-[#105C04] text-4xl font-bold mb-8'>Co-owner Lot</h2>
             <ul className='flex flex-col gap-y-8'>
@@ -147,7 +147,7 @@ const HowItWorks = () => {
         </div>
 
         <div className='flex flex-col sm:flex-row-reverse items-center justify-center sm:justify-normal text-left gap-8 py-12'>
-          <img src="../../src/assets/image 6.png" alt="banner image" width={400} className='shrink-0 object-contain'/>
+          <img src="/assets/image 6.png" alt="banner image" width={400} className='shrink-0 object-contain'/>
           <div>
             <h2 className='text-[#105C04] text-4xl font-bold mb-8'>Full-owner Lot</h2>
             <ul className='flex flex-col gap-y-8'>
@@ -273,7 +273,7 @@ const HowItWorks = () => {
         </div>
 
         <div className='flex flex-col sm:flex-row items-center justify-center sm:justify-normal text-left gap-8 py-12'>
-          <img src="../../src/assets/image 8.png" alt="banner image" width={400} className='shrink-0 object-contain'/>
+          <img src="/assets/image 8.png" alt="banner image" width={400} className='shrink-0 object-contain'/>
           <div>
             <h2 className='text-[#105C04] text-4xl font-bold mb-8'>Developer Lot</h2>
             <ul className='flex flex-col gap-y-8'>

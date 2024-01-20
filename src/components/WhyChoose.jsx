@@ -5,7 +5,7 @@ const WhyChoose = () => {
     <section>
       <div className='flex flex-col sm:flex-row items-center text-center sm:text-left gap-16 bg-[#105C04] px-12 sm:px-24 py-16'>
         <h2 className='text-3xl text-[#ffffff] font-semibold'>Why will I choose to buy land on <span className='text-[#FFA800]'>Jazã and Sakeenah</span> Web-app when buying offline is sometimes a scam without any land allocation?</h2>
-        <img src="../../src/assets/questions.png" alt="questions avater" width={300}/>
+        <img src="/assets/questions.png" alt="questions avater" width={300}/>
       </div>
 
       <div className='bg-[#FCF0DC] px-8 sm:px-24 py-24'>
