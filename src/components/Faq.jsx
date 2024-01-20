@@ -11,7 +11,7 @@ const Faq = () => {
   }
 
   return (
-    <section className='bg-[#EDF8F6] px-8 sm:px-24 py-24'>
+    <section className='bg-[#EDF8F6] px-8 md:px-24 py-24'>
       <h2 className='text-3xl text-[#105C04] mb-16 font-semibold'>Frequently Asked <br />
       <span className='text-[#64A001]'>Questions</span></h2>
 
@@ -21,22 +21,6 @@ const Faq = () => {
             <h3 className='text-lg font-semibold'>Q1. What's Jazã & Sakeenah Phase(s)</h3>
             {
             active && index == 1 ? 
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
-              fill="none"
-              viewBox="0 0 40 40"
-              className="shrink-0"
-            >
-              <path
-                fill="#FFA800"
-                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
-              ></path>
-              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
-              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
-            </svg> 
-            :
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="35"
@@ -57,6 +41,22 @@ const Faq = () => {
                 </clipPath>
               </defs>
             </svg>
+            :
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="none"
+              viewBox="0 0 40 40"
+              className="shrink-0"
+            >
+              <path
+                fill="#FFA800"
+                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
+              ></path>
+              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
+              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
+            </svg> 
             }
           </div>
           
@@ -80,22 +80,6 @@ const Faq = () => {
             active && index == 2 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
-              fill="none"
-              viewBox="0 0 40 40"
-              className="shrink-0"
-            >
-              <path
-                fill="#FFA800"
-                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
-              ></path>
-              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
-              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
-            </svg> 
-            :
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
               width="35"
               height="35"
               fill="none"
@@ -114,6 +98,22 @@ const Faq = () => {
                 </clipPath>
               </defs>
             </svg>
+            :
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="none"
+              viewBox="0 0 40 40"
+              className="shrink-0"
+            >
+              <path
+                fill="#FFA800"
+                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
+              ></path>
+              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
+              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
+            </svg> 
             }
           </div>
           
@@ -133,22 +133,6 @@ const Faq = () => {
             active && index == 3 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
-              fill="none"
-              viewBox="0 0 40 40"
-              className="shrink-0"
-            >
-              <path
-                fill="#FFA800"
-                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
-              ></path>
-              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
-              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
-            </svg> 
-            :
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
               width="35"
               height="35"
               fill="none"
@@ -167,6 +151,22 @@ const Faq = () => {
                 </clipPath>
               </defs>
             </svg>
+            :
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="none"
+              viewBox="0 0 40 40"
+              className="shrink-0"
+            >
+              <path
+                fill="#FFA800"
+                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
+              ></path>
+              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
+              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
+            </svg> 
             }
           </div>
           
@@ -186,22 +186,6 @@ const Faq = () => {
             active && index == 4 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
-              fill="none"
-              viewBox="0 0 40 40"
-              className="shrink-0"
-            >
-              <path
-                fill="#FFA800"
-                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
-              ></path>
-              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
-              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
-            </svg> 
-            :
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
               width="35"
               height="35"
               fill="none"
@@ -220,6 +204,22 @@ const Faq = () => {
                 </clipPath>
               </defs>
             </svg>
+            :
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="none"
+              viewBox="0 0 40 40"
+              className="shrink-0"
+            >
+              <path
+                fill="#FFA800"
+                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
+              ></path>
+              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
+              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
+            </svg> 
             }
           </div>
           
@@ -238,22 +238,6 @@ const Faq = () => {
             active && index == 5 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
-              fill="none"
-              viewBox="0 0 40 40"
-              className="shrink-0"
-            >
-              <path
-                fill="#FFA800"
-                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
-              ></path>
-              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
-              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
-            </svg> 
-            :
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
               width="35"
               height="35"
               fill="none"
@@ -272,6 +256,22 @@ const Faq = () => {
                 </clipPath>
               </defs>
             </svg>
+            :
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="none"
+              viewBox="0 0 40 40"
+              className="shrink-0"
+            >
+              <path
+                fill="#FFA800"
+                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
+              ></path>
+              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
+              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
+            </svg> 
             }
           </div>
           
@@ -290,22 +290,6 @@ const Faq = () => {
             active && index == 6 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
-              fill="none"
-              viewBox="0 0 40 40"
-              className="shrink-0"
-            >
-              <path
-                fill="#FFA800"
-                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
-              ></path>
-              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
-              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
-            </svg> 
-            :
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
               width="35"
               height="35"
               fill="none"
@@ -324,6 +308,22 @@ const Faq = () => {
                 </clipPath>
               </defs>
             </svg>
+            :
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="none"
+              viewBox="0 0 40 40"
+              className="shrink-0"
+            >
+              <path
+                fill="#FFA800"
+                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
+              ></path>
+              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
+              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
+            </svg> 
             }
           </div>
           
@@ -343,22 +343,6 @@ const Faq = () => {
             active && index == 7 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
-              fill="none"
-              viewBox="0 0 40 40"
-              className="shrink-0"
-            >
-              <path
-                fill="#FFA800"
-                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
-              ></path>
-              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
-              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
-            </svg> 
-            :
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
               width="35"
               height="35"
               fill="none"
@@ -377,6 +361,22 @@ const Faq = () => {
                 </clipPath>
               </defs>
             </svg>
+            :
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="none"
+              viewBox="0 0 40 40"
+              className="shrink-0"
+            >
+              <path
+                fill="#FFA800"
+                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
+              ></path>
+              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
+              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
+            </svg> 
             }
           </div>
           
@@ -396,22 +396,6 @@ const Faq = () => {
             active && index == 8 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
-              fill="none"
-              viewBox="0 0 40 40"
-              className="shrink-0"
-            >
-              <path
-                fill="#FFA800"
-                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
-              ></path>
-              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
-              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
-            </svg> 
-            :
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
               width="35"
               height="35"
               fill="none"
@@ -430,6 +414,22 @@ const Faq = () => {
                 </clipPath>
               </defs>
             </svg>
+            :
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="none"
+              viewBox="0 0 40 40"
+              className="shrink-0"
+            >
+              <path
+                fill="#FFA800"
+                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
+              ></path>
+              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
+              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
+            </svg> 
             }
           </div>
           
@@ -449,22 +449,6 @@ const Faq = () => {
             active && index == 9 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
-              fill="none"
-              viewBox="0 0 40 40"
-              className="shrink-0"
-            >
-              <path
-                fill="#FFA800"
-                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
-              ></path>
-              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
-              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
-            </svg> 
-            :
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
               width="35"
               height="35"
               fill="none"
@@ -483,6 +467,22 @@ const Faq = () => {
                 </clipPath>
               </defs>
             </svg>
+            :
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="none"
+              viewBox="0 0 40 40"
+              className="shrink-0"
+            >
+              <path
+                fill="#FFA800"
+                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
+              ></path>
+              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
+              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
+            </svg> 
             }
           </div>
           
@@ -515,22 +515,6 @@ const Faq = () => {
             active && index == 10 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
-              fill="none"
-              viewBox="0 0 40 40"
-              className="shrink-0"
-            >
-              <path
-                fill="#FFA800"
-                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
-              ></path>
-              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
-              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
-            </svg> 
-            :
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
               width="35"
               height="35"
               fill="none"
@@ -549,6 +533,22 @@ const Faq = () => {
                 </clipPath>
               </defs>
             </svg>
+            :
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="none"
+              viewBox="0 0 40 40"
+              className="shrink-0"
+            >
+              <path
+                fill="#FFA800"
+                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
+              ></path>
+              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
+              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
+            </svg> 
             }
           </div>
           
@@ -568,22 +568,6 @@ const Faq = () => {
             active && index == 11 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
-              fill="none"
-              viewBox="0 0 40 40"
-              className="shrink-0"
-            >
-              <path
-                fill="#FFA800"
-                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
-              ></path>
-              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
-              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
-            </svg> 
-            :
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
               width="35"
               height="35"
               fill="none"
@@ -602,6 +586,22 @@ const Faq = () => {
                 </clipPath>
               </defs>
             </svg>
+            :
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="none"
+              viewBox="0 0 40 40"
+              className="shrink-0"
+            >
+              <path
+                fill="#FFA800"
+                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
+              ></path>
+              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
+              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
+            </svg> 
             }
           </div>
           
@@ -621,22 +621,6 @@ const Faq = () => {
             active && index == 12 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
-              fill="none"
-              viewBox="0 0 40 40"
-              className="shrink-0"
-            >
-              <path
-                fill="#FFA800"
-                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
-              ></path>
-              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
-              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
-            </svg> 
-            :
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
               width="35"
               height="35"
               fill="none"
@@ -655,6 +639,22 @@ const Faq = () => {
                 </clipPath>
               </defs>
             </svg>
+            :
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="none"
+              viewBox="0 0 40 40"
+              className="shrink-0"
+            >
+              <path
+                fill="#FFA800"
+                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
+              ></path>
+              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
+              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
+            </svg> 
             }
           </div>
           
@@ -674,22 +674,6 @@ const Faq = () => {
             active && index == 13 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
-              fill="none"
-              viewBox="0 0 40 40"
-              className="shrink-0"
-            >
-              <path
-                fill="#FFA800"
-                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
-              ></path>
-              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
-              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
-            </svg> 
-            :
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
               width="35"
               height="35"
               fill="none"
@@ -708,6 +692,22 @@ const Faq = () => {
                 </clipPath>
               </defs>
             </svg>
+            :
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="none"
+              viewBox="0 0 40 40"
+              className="shrink-0"
+            >
+              <path
+                fill="#FFA800"
+                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
+              ></path>
+              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
+              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
+            </svg> 
             }
           </div>
           
@@ -727,22 +727,6 @@ const Faq = () => {
             active && index == 14 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
-              fill="none"
-              viewBox="0 0 40 40"
-              className="shrink-0"
-            >
-              <path
-                fill="#FFA800"
-                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
-              ></path>
-              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
-              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
-            </svg> 
-            :
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
               width="35"
               height="35"
               fill="none"
@@ -761,6 +745,22 @@ const Faq = () => {
                 </clipPath>
               </defs>
             </svg>
+            :
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="none"
+              viewBox="0 0 40 40"
+              className="shrink-0"
+            >
+              <path
+                fill="#FFA800"
+                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
+              ></path>
+              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
+              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
+            </svg> 
             }
           </div>
           
@@ -782,22 +782,6 @@ const Faq = () => {
             active && index == 15 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
-              fill="none"
-              viewBox="0 0 40 40"
-              className="shrink-0"
-            >
-              <path
-                fill="#FFA800"
-                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
-              ></path>
-              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
-              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
-            </svg> 
-            :
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
               width="35"
               height="35"
               fill="none"
@@ -816,6 +800,22 @@ const Faq = () => {
                 </clipPath>
               </defs>
             </svg>
+            :
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="none"
+              viewBox="0 0 40 40"
+              className="shrink-0"
+            >
+              <path
+                fill="#FFA800"
+                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
+              ></path>
+              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
+              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
+            </svg> 
             }
           </div>
           
@@ -835,22 +835,6 @@ const Faq = () => {
             active && index == 16 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
-              fill="none"
-              viewBox="0 0 40 40"
-              className="shrink-0"
-            >
-              <path
-                fill="#FFA800"
-                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
-              ></path>
-              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
-              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
-            </svg> 
-            :
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
               width="35"
               height="35"
               fill="none"
@@ -869,6 +853,22 @@ const Faq = () => {
                 </clipPath>
               </defs>
             </svg>
+            :
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="none"
+              viewBox="0 0 40 40"
+              className="shrink-0"
+            >
+              <path
+                fill="#FFA800"
+                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
+              ></path>
+              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
+              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
+            </svg> 
             }
           </div>
           
@@ -888,22 +888,6 @@ const Faq = () => {
             active && index == 17 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
-              fill="none"
-              viewBox="0 0 40 40"
-              className="shrink-0"
-            >
-              <path
-                fill="#FFA800"
-                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
-              ></path>
-              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
-              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
-            </svg> 
-            :
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
               width="35"
               height="35"
               fill="none"
@@ -922,6 +906,22 @@ const Faq = () => {
                 </clipPath>
               </defs>
             </svg>
+            :
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="none"
+              viewBox="0 0 40 40"
+              className="shrink-0"
+            >
+              <path
+                fill="#FFA800"
+                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
+              ></path>
+              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
+              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
+            </svg> 
             }
           </div>
           
@@ -941,22 +941,6 @@ const Faq = () => {
             active && index == 18 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
-              fill="none"
-              viewBox="0 0 40 40"
-              className="shrink-0"
-            >
-              <path
-                fill="#FFA800"
-                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
-              ></path>
-              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
-              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
-            </svg> 
-            :
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
               width="35"
               height="35"
               fill="none"
@@ -975,6 +959,22 @@ const Faq = () => {
                 </clipPath>
               </defs>
             </svg>
+            :
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="none"
+              viewBox="0 0 40 40"
+              className="shrink-0"
+            >
+              <path
+                fill="#FFA800"
+                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
+              ></path>
+              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
+              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
+            </svg> 
             }
           </div>
           
@@ -994,22 +994,6 @@ const Faq = () => {
             active && index == 19 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
-              fill="none"
-              viewBox="0 0 40 40"
-              className="shrink-0"
-            >
-              <path
-                fill="#FFA800"
-                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
-              ></path>
-              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
-              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
-            </svg> 
-            :
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
               width="35"
               height="35"
               fill="none"
@@ -1028,6 +1012,22 @@ const Faq = () => {
                 </clipPath>
               </defs>
             </svg>
+            :
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="none"
+              viewBox="0 0 40 40"
+              className="shrink-0"
+            >
+              <path
+                fill="#FFA800"
+                d="M20 37.5c9.665 0 17.5-7.835 17.5-17.5S29.665 2.5 20 2.5 2.5 10.335 2.5 20 10.335 37.5 20 37.5z"
+              ></path>
+              <path fill="#105C04" d="M17.5 11.666h5v16.667h-5V11.667z"></path>
+              <path fill="#105C04" d="M11.667 17.5h16.666v5H11.667v-5z"></path>
+            </svg> 
             }
           </div>
           

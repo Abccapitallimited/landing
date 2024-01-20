@@ -2,11 +2,15 @@ import React from 'react'
 
 const Portfolio = () => {
   return (
-    <section className='py-8 px-8 grid grid-cols-1 sm:grid-cols-3 gap-8'>
-      <img src="/assets/grid-item.jpeg" alt="grid item" className='w-[100%] h-[400px] border-[#64A001] border-8 object-cover sm:col-span-2 '/>
-      <img src="/assets/grid-item.jpeg" alt="grid item" className='w-[100%] h-[400px] border-[#64A001] border-8 object-cover'/>
-      <img src="/assets/grid-item.jpeg" alt="grid item" className='w-[100%] h-[400px] border-[#64A001] border-8 object-cover'/>
-      <img src="/assets/grid-item.jpeg" alt="grid item" className='w-[100%] h-[400px] border-[#64A001] border-8 object-cover sm:col-span-2 '/>
+    <section className='py-8 px-8 grid grid-cols-1 md:grid-cols-3 gap-8'>
+      <img src="/assets/grid-item.jpeg" alt="grid item" className='w-[100%] h-[400px] border-[#FCF0DC] border-8 object-cover md:col-span-2 '/>
+      <img src="/assets/grid-item-2.jpeg" alt="grid item" className='w-[100%] h-[400px] border-[#FCF0DC] border-8 object-cover'/>
+      <img src="/assets/grid-item-3.jpeg" alt="grid item" className='w-[100%] h-[400px] border-[#FCF0DC] border-8 object-cover'/>
+      <img src="/assets/grid-item-4.jpeg" alt="grid item" className='w-[100%] h-[400px] border-[#FCF0DC] border-8 object-cover md:col-span-2 '/>
+      <img src="/assets/grid-item-5.jpeg" alt="grid item" className='w-[100%] h-[400px] border-[#FCF0DC] border-8 object-cover md:col-span-2 '/>
+      <img src="/assets/grid-item-6.jpeg" alt="grid item" className='w-[100%] h-[400px] border-[#FCF0DC] border-8 object-cover '/>
+      <img src="/assets/grid-item-7.jpeg" alt="grid item" className='w-[100%] h-[400px] border-[#FCF0DC] border-8 object-cover '/>
+      <img src="/assets/grid-item-8.jpeg" alt="grid item" className='w-[100%] h-[400px] border-[#FCF0DC] border-8 object-cover md:col-span-2 '/>
     </section>
   )
 }

@@ -2,11 +2,11 @@ import React from 'react'
 
 const CustomerReview = () => {
   return (
-    <section className='px-8 sm:px-24 py-24 bg-[#64A001] text-[#ffffff]'>
+    <section className='px-8 md:px-24 py-24 bg-[#64A001] text-[#ffffff]'>
       <h2 className='text-3xl text-center font-semibold mb-16'>What Our Customers <br /> Are Saying</h2>
 
       <div className='flex items-center gap-x-2'>
-        <button className='hidden sm:block'>
+        <button className='hidden md:block'>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="80"
@@ -21,7 +21,7 @@ const CustomerReview = () => {
           </svg>
         </button>
 
-        <div className='flex flex-col sm:flex-row items-center text-left gap-8 sm:gap-16'>
+        <div className='flex flex-col md:flex-row items-center text-left gap-8 md:gap-16'>
           <div className='rounded-2xl bg-[#ffffff] px-8 py-8 grow'>
             <figure className='flex gap-2 items-center mb-4'>
 
@@ -35,7 +35,7 @@ const CustomerReview = () => {
             There are many variations of passages of Lorem Ipsum form, by injected humour randomised words.
             </p>
           </div>
-          <div className='rounded-2xl bg-[#ffffff] px-8 py-8 grow sm:scale-125'>
+          <div className='rounded-2xl bg-[#ffffff] px-8 py-8 grow md:scale-125'>
             <figure className='flex gap-2 items-center mb-4'>
 
               <figcaption>
@@ -63,7 +63,7 @@ const CustomerReview = () => {
           </div>
         </div>
 
-        <button className='hidden sm:block'>
+        <button className='hidden md:block'>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="80"

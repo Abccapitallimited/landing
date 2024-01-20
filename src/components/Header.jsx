@@ -5,17 +5,17 @@ const Header = () => {
   const [nav, setNav] = useState(false)
   return (
     <>
-    <header className='flex justify-between items-center py-4 px-8 sm:px-24'>
+    <header className='flex justify-between items-center py-4 px-8 md:px-24'>
       <a href="/">
         <img src="/assets/logo.png" alt="jaza & sakeenah" width={150}/>
       </a>
 
-      <div className='hidden sm:flex gap-4 bg-[#ffffff]'>
+      <div className='hidden md:flex gap-4 bg-[#ffffff]'>
         <a href="#" className='py-4 px-8 bg-[#105C04] text-[#ffffff] text-sm'>Register</a>
         <a href="#" className='py-4 px-8 bg-[#FFA800] text-[#105C04] text-sm'>Login</a>
       </div>
 
-      <button className='block sm:hidden' onClick={() => setNav(!nav)}>
+      <button className='block md:hidden' onClick={() => setNav(!nav)}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"

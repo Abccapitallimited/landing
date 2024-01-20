@@ -2,8 +2,8 @@ import React from 'react'
 
 const StepsToOwn = () => {
   return (
-    <section className='flex flex-col sm:flex-row'>
-      <div className=' grow bg-[#105C04] px-8 sm:px-24 py-24 w-[100%]'>
+    <section className='flex flex-col md:flex-row'>
+      <div className=' grow bg-[#105C04] px-8 md:px-24 py-24 w-[100%]'>
         <h2 className='text-4xl text-[#ffffff] mb-8'>Steps To Become a <br />Jazã <span className='text-[#FFA800]'>LandOwner</span></h2>
 
         <ul className='flex flex-col gap-y-8'>

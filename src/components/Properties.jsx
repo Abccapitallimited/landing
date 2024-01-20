@@ -2,14 +2,14 @@ import React from 'react'
 
 const Properties = () => {
   return (
-    <section className='px-8 sm:px-24 py-24 bg-[#FCF0DC]' id='properties'>
+    <section className='px-8 md:px-24 py-24 bg-[#FCF0DC]' id='properties'>
       <div className='text-center max-w-[600px] mx-auto mb-16'>
         <h2 className='text-4xl font-semibold text-[#105C04] mb-8'>Properties</h2>
         <p className='text-[#105C04] font-semibold text-base'>Our listed properties are verified genuine with a plethora of smart property owners already investing with us. <br /> Our own-earner property portfolio covers locations that fulfil the purpose of each listed property investment.</p>
       </div>
 
       <div className='flex items-center gap-x-4'>
-        <button className='hidden sm:block'>
+        <button className='hidden md:block'>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="50"
@@ -29,10 +29,10 @@ const Properties = () => {
           </svg>
         </button>
 
-        <div className='flex flex-col sm:flex-row items-center text-left gap-8'>
+        <div className='flex flex-col md:flex-row items-center text-left gap-8'>
           <div className='bg-[#105C04] rounded-2xl px-4 py-4 grow text-[#ffffff]'>
             <figure className='max-h-[250px] overflow-hidden rounded-2xl relative'>
-              <img src="/assets/banner_image.png" alt="banner image" className='w-[100%]'/>
+              <img src="/assets/property.jpg" alt="banner image" className='w-[100%]'/>
               <figcaption className='absolute bottom-0 left-0 w-[100%] h-[100%] bg-[#105C04aa] flex flex-col justify-end px-4 py-4'>
                 <h3 className='text-lg font-semibold'>Jaza & Sakeenah <br /> Residential Estate 1</h3>
                 <span>Ilara, Epe, Lagos State, Nigeria</span>
@@ -146,7 +146,7 @@ const Properties = () => {
           
           <div className='bg-[#105C04] rounded-2xl px-4 py-4 grow text-[#ffffff]'>
             <figure className='max-h-[250px] overflow-hidden rounded-2xl relative'>
-              <img src="/assets/banner_image.png" alt="banner image" className='w-[100%]'/>
+              <img src="/assets/property.jpg" alt="banner image" className='w-[100%]'/>
               <figcaption className='absolute bottom-0 left-0 w-[100%] h-[100%] bg-[#105C04aa] flex flex-col justify-end px-4 py-4'>
                 <h3 className='text-lg font-semibold'>Jaza & Sakeenah <br /> Residential Estate 1</h3>
                 <span>Ilara, Epe, Lagos State, Nigeria</span>
@@ -260,7 +260,7 @@ const Properties = () => {
 
           <div className='bg-[#105C04] rounded-2xl px-4 py-4 grow text-[#ffffff]'>
             <figure className='max-h-[250px] overflow-hidden rounded-2xl relative'>
-              <img src="/assets/banner_image.png" alt="banner image" className='w-[100%]'/>
+              <img src="/assets/property.jpg" alt="banner image" className='w-[100%]'/>
               <figcaption className='absolute bottom-0 left-0 w-[100%] h-[100%] bg-[#105C04aa] flex flex-col justify-end px-4 py-4'>
                 <h3 className='text-lg font-semibold'>Jaza & Sakeenah <br /> Residential Estate 1</h3>
                 <span>Ilara, Epe, Lagos State, Nigeria</span>
@@ -373,7 +373,7 @@ const Properties = () => {
           </div>
         </div>
 
-        <button className='hidden sm:block'>
+        <button className='hidden md:block'>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="50"

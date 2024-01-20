@@ -2,11 +2,11 @@ import React from 'react'
 
 const NewsUpdate = () => {
   return (
-    <section className='bg-[#EDF8F6] px-8 sm:px-24 py-24'>
+    <section className='bg-[#EDF8F6] px-8 md:px-24 py-24'>
       <h2 className='text-3xl text-center text-[#105C04] font-semibold mb-16'>News & Update</h2>
 
       <div className='flex items-center gap-x-4'>
-      <button className='hidden sm:block'>
+      <button className='hidden md:block'>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="50"
@@ -26,9 +26,9 @@ const NewsUpdate = () => {
         </svg>
       </button>
 
-      <div className='flex flex-col sm:flex-row items-center text-left gap-8'>
+      <div className='flex flex-col md:flex-row items-center text-left gap-8'>
         <figure className='rounded-2xl bg-[#105C04] grow'>
-          <img src="/assets/teams/team-3.jpeg" alt="team image" className='rounded-t-2xl object-cover w-[100%] h-[250px] object-top'/>
+          <img src="/assets/news.jpg" alt="team image" className='rounded-t-2xl object-cover w-[100%] h-[250px] object-top'/>
 
           <figcaption className='px-8 py-8 text-[#ffffff]'>
             <div className='flex justify-between items-center mb-4'>
@@ -51,7 +51,7 @@ const NewsUpdate = () => {
           </figcaption>
         </figure>
         <figure className='rounded-2xl bg-[#105C04] grow'>
-          <img src="/assets/teams/team-3.jpeg" alt="team image" className='rounded-t-2xl object-cover w-[100%] h-[250px] object-top'/>
+          <img src="/assets/news.jpg" alt="team image" className='rounded-t-2xl object-cover w-[100%] h-[250px] object-top'/>
 
           <figcaption className='px-8 py-8 text-[#ffffff]'>
             <div className='flex justify-between items-center mb-4'>
@@ -74,7 +74,7 @@ const NewsUpdate = () => {
           </figcaption>
         </figure>
         <figure className='rounded-2xl bg-[#105C04] grow'>
-          <img src="/assets/teams/team-3.jpeg" alt="team image" className='rounded-t-2xl object-cover w-[100%] h-[250px] object-top'/>
+          <img src="/assets/news.jpg" alt="team image" className='rounded-t-2xl object-cover w-[100%] h-[250px] object-top'/>
 
           <figcaption className='px-8 py-8 text-[#ffffff]'>
             <div className='flex justify-between items-center mb-4'>
@@ -98,7 +98,7 @@ const NewsUpdate = () => {
         </figure>
       </div>
 
-      <button className='hidden sm:block'>
+      <button className='hidden md:block'>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="50"

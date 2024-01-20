@@ -2,7 +2,7 @@ import React from 'react'
 
 const FactsToGuide = () => {
   return (
-    <section className='bg-[#FCF0DC] px-8 sm:px-24 py-24'>
+    <section className='bg-[#FCF0DC] px-8 md:px-24 py-24'>
       <h2 className='text-3xl text-center text-[#105C04] font-semibold mb-16'>Fãcts to Guide <br />
       Your Decision</h2>
       <ul className='flex flex-col gap-y-8 px-12 py-12'>
@@ -22,7 +22,7 @@ const FactsToGuide = () => {
             </svg>
           </div>
 
-          <div className='rounded-2xl px-8 sm:px-24 py-12 bg-[#ffffff] text-[#105C04]'>
+          <div className='rounded-2xl px-8 md:px-24 py-12 bg-[#ffffff] text-[#105C04]'>
           1 unit of Own-Earner purchase is equivalent to 1 sqm of land purchase.
           </div>
         </li>
@@ -42,7 +42,7 @@ const FactsToGuide = () => {
             </svg>
           </div>
 
-          <div className='rounded-2xl px-8 sm:px-24 py-12 bg-[#ffffff] text-[#105C04]'>
+          <div className='rounded-2xl px-8 md:px-24 py-12 bg-[#ffffff] text-[#105C04]'>
           Co-owners can sell or transfer their ownership stakes anytime from a 24 months holding period through the web-app marketplace. All unsold co-owner lots get liquidated by the 5th year of purchase in order for Co-owners to get both capital and capital gains according to their respective individual purchase stakes. 
           </div>
         </li>
@@ -62,7 +62,7 @@ const FactsToGuide = () => {
             </svg>
           </div>
 
-          <div className='rounded-2xl px-8 sm:px-24 py-12 bg-[#ffffff] text-[#105C04]'>
+          <div className='rounded-2xl px-8 md:px-24 py-12 bg-[#ffffff] text-[#105C04]'>
           Full-owners and Developers can choose to transfer their ownership stakes anytime after complete purchase or own their stake for lifetime and use it for whatever they want.
           </div>
         </li>
@@ -82,7 +82,7 @@ const FactsToGuide = () => {
             </svg>
           </div>
 
-          <div className='rounded-2xl px-8 sm:px-24 py-12 bg-[#ffffff] text-[#105C04]'>
+          <div className='rounded-2xl px-8 md:px-24 py-12 bg-[#ffffff] text-[#105C04]'>
           While Full-owner and Developer Lots can be used to build residential or commercial structures, for landbanking,  for Agric of low negative environmental impact etc, Co-owner lots can only be used for landbanking
           </div>
         </li>
@@ -102,7 +102,7 @@ const FactsToGuide = () => {
             </svg>
           </div>
 
-          <div className='rounded-2xl px-8 sm:px-24 py-12 bg-[#ffffff] text-[#105C04]'>
+          <div className='rounded-2xl px-8 md:px-24 py-12 bg-[#ffffff] text-[#105C04]'>
           We trade only secured landed property investments whose profit appreciation matches with live market trends.
           </div>
         </li>
@@ -122,7 +122,7 @@ const FactsToGuide = () => {
             </svg>
           </div>
 
-          <div className='rounded-2xl px-8 sm:px-24 py-12 bg-[#ffffff] text-[#105C04]'>
+          <div className='rounded-2xl px-8 md:px-24 py-12 bg-[#ffffff] text-[#105C04]'>
           Only low-risk, high-value appreciation properties with the right Title Documentation are listed for our users' purchase. 
           </div>
         </li>
@@ -142,7 +142,7 @@ const FactsToGuide = () => {
             </svg>
           </div>
 
-          <div className='rounded-2xl px-8 sm:px-24 py-12 bg-[#ffffff] text-[#105C04]'>
+          <div className='rounded-2xl px-8 md:px-24 py-12 bg-[#ffffff] text-[#105C04]'>
           You own all your profit to yourself upon resell.
           </div>
         </li>
@@ -162,7 +162,7 @@ const FactsToGuide = () => {
             </svg>
           </div>
 
-          <div className='rounded-2xl px-8 sm:px-24 py-12 bg-[#ffffff] text-[#105C04]'>
+          <div className='rounded-2xl px-8 md:px-24 py-12 bg-[#ffffff] text-[#105C04]'>
           For Full-Owner and Developer Lots, you can buy either through: <br />
           a. One-time purchase = Outright payment. <br />
           b. Installment purchase = Buy little by little at regular intervals according to your set goal. 
