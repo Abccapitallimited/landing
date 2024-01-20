@@ -5,8 +5,8 @@ const OurTeam = () => {
     <section className='bg-[#105C04] px-8 sm:px-24 py-24'>
       <h2 className='text-4xl text-center text-[#FFA800] font-semibold mb-16'>Our Teãm</h2>
 
-      <div className='flex flex-col sm:flex-row items-start text-left gap-8'>
-        <figure className='rounded-2xl w-[350px]'>
+      <div className='flex flex-col sm:flex-row text-left gap-8 sm:overflow-x-scroll'>
+        <figure className='rounded-2xl sm:min-w-[300px]'>
           <img src="/assets/teams/team.jpeg" alt="team image" className='rounded-t-2xl object-cover w-[100%] h-[250px] object-top'/>
 
           <figcaption className='px-8 py-8 bg-[#64A001] text-[#ffffff]'>
@@ -14,7 +14,7 @@ const OurTeam = () => {
             <p>Legal Expert</p>
           </figcaption>
         </figure>
-        <figure className='rounded-2xl w-[350px]'>
+        <figure className='rounded-2xl sm:min-w-[300px]'>
           <img src="/assets/teams/team-2.jpeg" alt="team image" className='rounded-t-2xl object-cover w-[100%] h-[250px] object-top'/>
 
           <figcaption className='px-8 py-8 bg-[#64A001] text-[#ffffff]'>
@@ -22,7 +22,7 @@ const OurTeam = () => {
             <p>Estate Surveyor and Valuer</p>
           </figcaption>
         </figure>
-        <figure className='rounded-2xl w-[350px]'>
+        <figure className='rounded-2xl sm:min-w-[300px]'>
           <img src="/assets/teams/team-3.jpeg" alt="team image" className='rounded-t-2xl object-cover w-[100%] h-[250px] object-top'/>
 
           <figcaption className='px-8 py-8 bg-[#64A001] text-[#ffffff]'>
@@ -30,7 +30,7 @@ const OurTeam = () => {
             <p>Marketing Manager.</p>
           </figcaption>
         </figure>
-        <figure className='rounded-2xl w-[350px]'>
+        <figure className='rounded-2xl sm:min-w-[300px]'>
           <img src="/assets/teams/team-4.jpeg" alt="team image" className='rounded-t-2xl object-cover w-[100%] h-[250px] object-top'/>
 
           <figcaption className='px-8 py-8 bg-[#64A001] text-[#ffffff]'>
@@ -38,7 +38,7 @@ const OurTeam = () => {
             <p>Land Surveyor.</p>
           </figcaption>
         </figure>
-        <figure className='rounded-2xl w-[350px]'>
+        <figure className='rounded-2xl sm:min-w-[300px]'>
           <img src="/assets/teams/team-5.jpeg" alt="team image" className='rounded-t-2xl object-cover w-[100%] h-[250px] object-top'/>
 
           <figcaption className='px-8 py-8 bg-[#64A001] text-[#ffffff]'>
@@ -46,7 +46,7 @@ const OurTeam = () => {
             <p>Estate Surveyor and Valuer.</p>
           </figcaption>
         </figure>
-        <figure className='rounded-2xl w-[350px]'>
+        <figure className='rounded-2xl sm:min-w-[300px]'>
           <img src="/assets/teams/team-6.jpeg" alt="team image" className='rounded-t-2xl object-cover w-[100%] h-[250px] object-top'/>
 
           <figcaption className='px-8 py-8 bg-[#64A001] text-[#ffffff]'>
