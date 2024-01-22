@@ -10,7 +10,7 @@ const Banner = () => {
       if(index < 2) {
         setIndex((prevIndex) => (prevIndex + 1) % 2);
       }
-    }, 6000)
+    }, 4000)
     return () => clearInterval(intervalId);
   }, [index])
 

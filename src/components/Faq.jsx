@@ -11,7 +11,7 @@ const Faq = () => {
   }
 
   return (
-    <section className='bg-[#EDF8F6] px-8 md:px-24 py-24'>
+    <section className='bg-[#EDF8F6] px-8 lg:px-24 py-24'>
       <h2 className='text-3xl text-[#105C04] mb-16 font-semibold'>Frequently Asked <br />
       <span className='text-[#64A001]'>Questions</span></h2>
 

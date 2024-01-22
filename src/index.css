@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
 
   font-synthesis: none;
@@ -20,4 +26,10 @@ body {
   line-height: 1.5;
   font-size: 14px;
   font-weight: 400;
+}
+
+.custom_grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }

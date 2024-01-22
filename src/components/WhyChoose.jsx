@@ -5,12 +5,12 @@ import React from 'react'
 const WhyChoose = () => {
   return (
     <section>
-      <div className='flex flex-col md:flex-row items-center text-center md:text-left gap-16 bg-[#105C04] px-12 md:px-24 py-16'>
+      <div className='flex flex-col lg:flex-row items-center text-center lg:text-left gap-16 bg-[#105C04] px-12 lg:px-24 py-16'>
         <h2 className='text-3xl text-[#ffffff] font-semibold'>Why will I choose to buy land on <span className='text-[#FFA800]'>Jazã and Sakeenah</span> Web-app when buying offline is sometimes a scam without any land allocation?</h2>
         <img src="/assets/questions.png" alt="questions avater" width={300}/>
       </div>
 
-      <div className='bg-[#FCF0DC] px-8 md:px-24 py-24'>
+      <div className='bg-[#FCF0DC] px-8 lg:px-24 py-24'>
         <ul className='flex flex-col gap-y-8'>
           <li className='flex gap-x-2 items-center'>
             <span className='min-w-16 min-h-16 flex justify-center items-center rounded-full bg-[#ffffff] border-2 border-[#FFA800]'>1</span>

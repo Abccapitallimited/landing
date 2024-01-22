@@ -3,13 +3,13 @@ import React from 'react'
 const HowItWorks = () => {
   return (
     <div id='how-it-works'>
-      <aside className='bg-[#EDF8F6] overflow-hidden relative h-[150px] w-[100%]'>
-        <div className='absolute top-0 left-0 h-[200px] w-[100%] rotate-[-5deg] bg-[#105C04] translate-y-[-150px] translate-x-[-50px]'></div>
-        <div className='absolute top-0 right-0 h-[200px] w-[100%] rotate-[5deg] bg-[#105C04] translate-y-[-150px] translate-x-[50px]'></div>
+      <aside className='bg-[#FCF0DC] overflow-hidden relative h-[100px] w-[100%]'>
+        <div className='absolute top-0 left-0 h-[100px] w-[100%] rotate-[-5deg] bg-[#105C04] translate-y-[-75px] translate-x-[-50px]'></div>
+        <div className='absolute top-0 right-0 h-[100px] w-[100%] rotate-[5deg] bg-[#105C04] translate-y-[-75px] translate-x-[50px]'></div>
       </aside>
 
-      <section className='bg-[#EDF8F6] py-24 px-8 md:px-24'>
-        <div className='text-center max-w-[600px] mx-auto mb-24'>
+      <section className='bg-[#FCF0DC] py-8 px-8 lg:px-24'>
+        <div className='text-center max-w-[600px] mx-auto mb-0 translate-y-[-50px]'>
           <h4 className='text-[#105C04] font-semibold text-lg mb-4'>Whether you have money to buy standard plots of land or not… it doesn't matter</h4>
 
           <h1 className='text-[#64A001] font-semibold text-4xl mb-4'>
@@ -19,8 +19,8 @@ const HowItWorks = () => {
           <span>Join hundreds of members already on the Own-Earner app to purchase any of these categories below:</span>
         </div>
 
-        <div className='flex flex-col md:flex-row items-center justify-center md:justify-normal text-left gap-8 py-12'>
-          <img src="/assets/image 7.png" alt="banner image" width={400} className='shrink-0 object-contain'/>
+        <div className='flex flex-col lg:flex-row items-center justify-center lg:justify-normal text-left gap-8 py-12'>
+          <img src="/assets/image 7.png" alt="banner image" width={400} className='shrink-0 object-contain w-[100%] lg:w-[400px]'/>
           <div>
             <h2 className='text-[#105C04] text-4xl font-bold mb-8'>Co-owner Lot</h2>
             <ul className='flex flex-col gap-y-8'>
@@ -146,8 +146,8 @@ const HowItWorks = () => {
           </div>
         </div>
 
-        <div className='flex flex-col md:flex-row-reverse items-center justify-center md:justify-normal text-left gap-8 py-12'>
-          <img src="/assets/image 6.png" alt="banner image" width={400} className='shrink-0 object-contain'/>
+        <div className='flex flex-col lg:flex-row-reverse items-center justify-center lg:justify-normal text-left gap-8 py-12'>
+          <img src="/assets/image 6.png" alt="banner image" width={400} className='shrink-0 object-contain w-[100%] lg:w-[400px]'/>
           <div>
             <h2 className='text-[#105C04] text-4xl font-bold mb-8'>Full-owner Lot</h2>
             <ul className='flex flex-col gap-y-8'>
@@ -272,8 +272,8 @@ const HowItWorks = () => {
           </div>
         </div>
 
-        <div className='flex flex-col md:flex-row items-center justify-center md:justify-normal text-left gap-8 py-12'>
-          <img src="/assets/image 8.png" alt="banner image" width={400} className='shrink-0 object-contain'/>
+        <div className='flex flex-col lg:flex-row items-center justify-center lg:justify-normal text-left gap-8 py-12'>
+          <img src="/assets/image 8.png" alt="banner image" width={400} className='shrink-0 object-contain w-[100%] lg:w-[400px]'/>
           <div>
             <h2 className='text-[#105C04] text-4xl font-bold mb-8'>Developer Lot</h2>
             <ul className='flex flex-col gap-y-8'>

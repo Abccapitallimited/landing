@@ -2,13 +2,13 @@ import React from 'react'
 
 const TheMonthCustomer = () => {
   return (
-    <section className='px-8 md:px-24 py-24 bg-[#105C04]'>
-      <div className='px-8 md:px-24 py-24 bg-[#ffffff] rounded-2xl'>
+    <section className='px-8 lg:px-24 py-24 bg-[#105C04]'>
+      <div className='px-8 lg:px-24 py-24 bg-[#ffffff] rounded-2xl'>
         <h2 className='text-3xl text-center text-[#105C04] font-semibold mb-16'>Customer of the Month</h2>
 
         <figure>
           {/* Video here */}
-          <img src="/assets/customer.jpg" alt="customer image" className='object-cover rounded-t-3xl w-[100%] h-[200px] md:h-[400px]'/>
+          <img src="/assets/customer.jpg" alt="customer image" className='object-cover rounded-t-3xl w-[100%] h-[200px] lg:h-[400px]'/>
 
           <figcaption className='bg-[#105C04] px-8 py-8 text-[#ffffff]'>
             <h3 className='font-bold mb-2'>Mr. Yakub</h3>

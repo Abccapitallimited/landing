@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className='bg-[#105C04] px-8 md:px-24 py-12 text-[#BDBDBD] font-thin'>
-      <div className='flex flex-col md:flex-row justify-start  md:justify-center text-left gap-8 py-24'>
+    <footer className='bg-[#105C04] px-8 lg:px-24 py-12 text-[#BDBDBD] font-thin'>
+      <div className='flex flex-col lg:flex-row justify-start  lg:justify-center text-left gap-8 py-24'>
         <div className='grow'>
           <ul className='flex flex-col gap-y-4'>
             <li className='font-semibold text-[#ffffff]'>ADDRESS</li>
@@ -55,7 +55,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className='grow flex flex-col md:flex-row md:justify-between gap-8'>
+        <div className='grow flex flex-col lg:flex-row lg:justify-between gap-8'>
           <ul className='flex flex-col gap-y-4'>
             <li className='font-semibold text-[#ffffff]'>QUICK LINKS</li>
             <li><a href="/">Home</a></li>
