@@ -10,26 +10,26 @@ const HowItWorks = () => {
 
       <section className='bg-[#FCF0DC] py-8 px-8 lg:px-24'>
         <div className='text-center max-w-[600px] mx-auto mb-0 translate-y-[-50px]'>
-          <h4 className='text-[#105C04] font-semibold text-lg mb-4'>Whether you have money to buy standard plots of land or not… it doesn't matter</h4>
+          <h4 className='text-[#105C04] font-semibold text-base mb-4'>Whether you have money to buy standard plots of land or not… it doesn't matter</h4>
 
-          <h1 className='text-[#64A001] font-semibold text-4xl mb-4'>
+          <h1 className='text-[#64A001] font-semibold text-2xl mb-4'>
             <span className='text-[#105C04]'>How it Works:</span> Your Income Level & Location isn't a barrier
           </h1>
 
           <span>Join hundreds of members already on the Own-Earner app to purchase any of these categories below:</span>
         </div>
 
-        <div className='flex flex-col lg:flex-row items-center justify-center lg:justify-normal text-left gap-8 py-12'>
+        <div className='bg-[#EDF8F6] rounded-[2rem] shadow-xl flex flex-col-reverse lg:flex-row items-center justify-center lg:justify-normal text-left gap-8 px-12 py-12 mb-8'>
           <img src="/assets/image 7.png" alt="banner image" width={400} className='shrink-0 object-contain w-[100%] lg:w-[400px]'/>
           <div>
-            <h2 className='text-[#105C04] text-4xl font-bold mb-8'>Co-owner Lot</h2>
-            <ul className='flex flex-col gap-y-8'>
-              <li className='flex items-center gap-x-8'>
-                <div className='w-16 h-16 rounded-full shrink-0 flex justify-center items-center border-8 border-[#B0B8B6] bg-[#105C04]'>
+            <h2 className='text-[#105C04] text-2xl font-semibold mb-8'>Co-owner Lot</h2>
+            <ul className='flex flex-col gap-8'>
+              <li className='flex items-center gap-x-4'>
+                <div className='w-12 h-12 rounded-full shrink-0 flex justify-center items-center border-4 border-[#B0B8B6] bg-[#105C04]'>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
+                    width="16"
+                    height="16"
                     fill="none"
                     viewBox="0 0 30 30"
                     
@@ -64,12 +64,12 @@ const HowItWorks = () => {
                 </div>
                 <p className='text-[#105C04]'><strong>Size:</strong> Starting from 1 sqm of land to any size below the quarter plot</p>
               </li>
-              <li className='flex items-center gap-x-8'>
-                <div className='w-16 h-16 rounded-full shrink-0 flex justify-center items-center border-8 border-[#B0B8B6] bg-[#105C04]'>
+              <li className='flex items-center gap-x-4'>
+                <div className='w-12 h-12 rounded-full shrink-0 flex justify-center items-center border-8 border-[#B0B8B6] bg-[#105C04]'>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
+                    width="16"
+                    height="16"
                     fill="none"
                     viewBox="0 0 30 30"
                   >
@@ -103,12 +103,12 @@ const HowItWorks = () => {
                 </div>
                 <p className='text-[#105C04]'><strong>Uses:</strong> High Yield Mini-LandBanking</p>
               </li>
-              <li className='flex items-center gap-x-8'>
-                <div className='w-16 h-16 rounded-full shrink-0 flex justify-center items-center border-8 border-[#B0B8B6] bg-[#105C04]'>
+              <li className='flex items-center gap-x-4'>
+                <div className='w-12 h-12 rounded-full shrink-0 flex justify-center items-center border-8 border-[#B0B8B6] bg-[#105C04]'>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
+                    width="16"
+                    height="16"
                     fill="none"
                     viewBox="0 0 30 30"
                   >
@@ -146,17 +146,17 @@ const HowItWorks = () => {
           </div>
         </div>
 
-        <div className='flex flex-col lg:flex-row-reverse items-center justify-center lg:justify-normal text-left gap-8 py-12'>
+        <div className='bg-[#EDF8F6] rounded-[2rem] shadow-xl flex flex-col-reverse lg:flex-row-reverse items-center justify-center lg:justify-normal text-left gap-8 px-12 py-12 mb-8'>
           <img src="/assets/image 6.png" alt="banner image" width={400} className='shrink-0 object-contain w-[100%] lg:w-[400px]'/>
           <div>
-            <h2 className='text-[#105C04] text-4xl font-bold mb-8'>Full-owner Lot</h2>
+            <h2 className='text-[#105C04] text-2xl font-semibold mb-8'>Full-owner Lot</h2>
             <ul className='flex flex-col gap-y-8'>
-              <li className='flex items-center gap-x-8'>
-                <div className='w-16 h-16 rounded-full shrink-0 flex justify-center items-center border-8 border-[#B0B8B6] bg-[#105C04]'>
+              <li className='flex items-center gap-x-4'>
+                <div className='w-12 h-12 rounded-full shrink-0 flex justify-center items-center border-8 border-[#B0B8B6] bg-[#105C04]'>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
+                    width="16"
+                    height="16"
                     fill="none"
                     viewBox="0 0 30 30"
                   >
@@ -190,12 +190,12 @@ const HowItWorks = () => {
                 </div>
                 <p className='text-[#105C04]'><strong>Size:</strong> Quarter plot, half plot, 1 plot, and their multiples.</p>
               </li>
-              <li className='flex items-center gap-x-8'>
-                <div className='w-16 h-16 rounded-full shrink-0 flex justify-center items-center border-8 border-[#B0B8B6] bg-[#105C04]'>
+              <li className='flex items-center gap-x-4'>
+                <div className='w-12 h-12 rounded-full shrink-0 flex justify-center items-center border-8 border-[#B0B8B6] bg-[#105C04]'>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
+                    width="16"
+                    height="16"
                     fill="none"
                     viewBox="0 0 30 30"
                   >
@@ -229,12 +229,12 @@ const HowItWorks = () => {
                 </div>
                 <p className='text-[#105C04]'><strong>Uses:</strong> Build to live-in, to resell, rent, for Agric of low negative environmental impact, for High Yield Midi-Landbanking</p>
               </li>
-              <li className='flex items-center gap-x-8'>
-                <div className='w-16 h-16 rounded-full shrink-0 flex justify-center items-center border-8 border-[#B0B8B6] bg-[#105C04]'>
+              <li className='flex items-center gap-x-4'>
+                <div className='w-12 h-12 rounded-full shrink-0 flex justify-center items-center border-8 border-[#B0B8B6] bg-[#105C04]'>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
+                    width="16"
+                    height="16"
                     fill="none"
                     viewBox="0 0 30 30"
                   >
@@ -272,17 +272,17 @@ const HowItWorks = () => {
           </div>
         </div>
 
-        <div className='flex flex-col lg:flex-row items-center justify-center lg:justify-normal text-left gap-8 py-12'>
+        <div className='bg-[#EDF8F6] rounded-[2rem] shadow-xl flex flex-col-reverse lg:flex-row items-center justify-center lg:justify-normal text-left gap-8 px-12 py-12 mb-8'>
           <img src="/assets/image 8.png" alt="banner image" width={400} className='shrink-0 object-contain w-[100%] lg:w-[400px]'/>
           <div>
-            <h2 className='text-[#105C04] text-4xl font-bold mb-8'>Developer Lot</h2>
+            <h2 className='text-[#105C04] text-2xl font-semibold mb-8'>Developer Lot</h2>
             <ul className='flex flex-col gap-y-8'>
-              <li className='flex items-center gap-x-8'>
-                <div className='w-16 h-16 rounded-full shrink-0 flex justify-center items-center border-8 border-[#B0B8B6] bg-[#105C04]'>
+              <li className='flex items-center gap-x-4'>
+                <div className='w-12 h-12 rounded-full shrink-0 flex justify-center items-center border-8 border-[#B0B8B6] bg-[#105C04]'>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
+                    width="16"
+                    height="16"
                     fill="none"
                     viewBox="0 0 30 30"
                   >
@@ -316,12 +316,12 @@ const HowItWorks = () => {
                 </div>
                 <p className='text-[#105C04]'><strong>Size:</strong> Starting from 12 Plots of land.</p>
               </li>
-              <li className='flex items-center gap-x-8'>
-                <div className='w-16 h-16 rounded-full shrink-0 flex justify-center items-center border-8 border-[#B0B8B6] bg-[#105C04]'>
+              <li className='flex items-center gap-x-4'>
+                <div className='w-12 h-12 rounded-full shrink-0 flex justify-center items-center border-8 border-[#B0B8B6] bg-[#105C04]'>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
+                    width="16"
+                    height="16"
                     fill="none"
                     viewBox="0 0 30 30"
                   >
@@ -355,12 +355,12 @@ const HowItWorks = () => {
                 </div>
                 <p className='text-[#105C04]'><strong>Uses:</strong> To resell, for High Yield Maxi-Landbanking, for Mini-Estate, Residential Buildings, Agric of low negative environmental impact,</p>
               </li>
-              <li className='flex items-center gap-x-8'>
-                <div className='w-16 h-16 rounded-full shrink-0 flex justify-center items-center border-8 border-[#B0B8B6] bg-[#105C04]'>
+              <li className='flex items-center gap-x-4'>
+                <div className='w-12 h-12 rounded-full shrink-0 flex justify-center items-center border-8 border-[#B0B8B6] bg-[#105C04]'>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
+                    width="16"
+                    height="16"
                     fill="none"
                     viewBox="0 0 30 30"
                   >

@@ -12,19 +12,19 @@ const Faq = () => {
 
   return (
     <section className='bg-[#EDF8F6] px-8 lg:px-24 py-24'>
-      <h2 className='text-3xl text-[#105C04] mb-16 font-semibold'>Frequently Asked <br />
-      <span className='text-[#64A001]'>Questions</span></h2>
+      <h2 className='text-2xl text-[#105C04] mb-16 text-center lg:text-left font-semibold'>Frequently <br />Asked 
+      <span className='text-[#64A001]'> Questions</span></h2>
 
       <ul className='flex flex-col gap-8'>
-        <li className='px-8 py-8 rounded-lg bg-[#105C04] text-[#ffffff]'>
+        <li className='px-8 py-8 rounded-sm bg-[#105C04] text-[#ffffff]'>
           <div className='flex  justify-between' onClick={() => toggleActive(1)}>
-            <h3 className='text-lg font-semibold'>Q1. What's Jazã & Sakeenah Phase(s)</h3>
+            <h3 className='text-base font-semibold'>Q1. What's Jazã & Sakeenah Phase(s)</h3>
             {
             active && index == 1 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="35"
-              height="35"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 35 35"
               className="shrink-0"
@@ -44,8 +44,8 @@ const Faq = () => {
             :
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 40 40"
               className="shrink-0"
@@ -73,15 +73,15 @@ const Faq = () => {
             ''
           }
         </li>
-        <li className='px-8 py-8 rounded-lg bg-[#105C04] text-[#ffffff]'>
+        <li className='px-8 py-8 rounded-sm bg-[#105C04] text-[#ffffff]'>
           <div className='flex  justify-between' onClick={() => toggleActive(2)}>
-            <h3 className='text-lg font-semibold'>Q2. Who is the developer of Jazã & Sakeenah Phases?</h3>
+            <h3 className='text-base font-semibold'>Q2. Who is the developer of Jazã & Sakeenah Phases?</h3>
             {
             active && index == 2 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="35"
-              height="35"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 35 35"
               className="shrink-0"
@@ -101,8 +101,8 @@ const Faq = () => {
             :
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 40 40"
               className="shrink-0"
@@ -126,15 +126,15 @@ const Faq = () => {
             ''
           }
         </li>
-        <li className='px-8 py-8 rounded-lg bg-[#105C04] text-[#ffffff]'>
+        <li className='px-8 py-8 rounded-sm bg-[#105C04] text-[#ffffff]'>
           <div className='flex  justify-between' onClick={() => toggleActive(3)}>
-            <h3 className='text-lg font-semibold'>Q3. What type of Ownership Titles are available for these Estate Phases?</h3>
+            <h3 className='text-base font-semibold'>Q3. What type of Ownership Titles are available for these Estate Phases?</h3>
             {
             active && index == 3 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="35"
-              height="35"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 35 35"
               className="shrink-0"
@@ -154,8 +154,8 @@ const Faq = () => {
             :
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 40 40"
               className="shrink-0"
@@ -179,15 +179,15 @@ const Faq = () => {
             ''
           }
         </li>
-        <li className='px-8 py-8 rounded-lg bg-[#105C04] text-[#ffffff]'>
+        <li className='px-8 py-8 rounded-sm bg-[#105C04] text-[#ffffff]'>
           <div className='flex  justify-between' onClick={() => toggleActive(4)}>
-            <h3 className='text-lg font-semibold'>Q4. Are there any encumbrances in these phases? </h3>
+            <h3 className='text-base font-semibold'>Q4. Are there any encumbrances in these phases? </h3>
             {
             active && index == 4 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="35"
-              height="35"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 35 35"
               className="shrink-0"
@@ -207,8 +207,8 @@ const Faq = () => {
             :
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 40 40"
               className="shrink-0"
@@ -231,15 +231,15 @@ const Faq = () => {
             ''
           }
         </li>
-        <li className='px-8 py-8 rounded-lg bg-[#105C04] text-[#ffffff]'>
+        <li className='px-8 py-8 rounded-sm bg-[#105C04] text-[#ffffff]'>
           <div className='flex  justify-between' onClick={() => toggleActive(5)}>
-            <h3 className='text-lg font-semibold'>Q5. What is Own-Earner Property?</h3>
+            <h3 className='text-base font-semibold'>Q5. What is Own-Earner Property?</h3>
             {
             active && index == 5 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="35"
-              height="35"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 35 35"
               className="shrink-0"
@@ -259,8 +259,8 @@ const Faq = () => {
             :
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 40 40"
               className="shrink-0"
@@ -283,15 +283,15 @@ const Faq = () => {
             ''
           }
         </li>
-        <li className='px-8 py-8 rounded-lg bg-[#105C04] text-[#ffffff]'>
+        <li className='px-8 py-8 rounded-sm bg-[#105C04] text-[#ffffff]'>
           <div className='flex  justify-between' onClick={() => toggleActive(6)}>
-            <h3 className='text-lg font-semibold'>Q6. Do you have an installment payment plan?</h3>
+            <h3 className='text-base font-semibold'>Q6. Do you have an installment payment plan?</h3>
             {
             active && index == 6 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="35"
-              height="35"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 35 35"
               className="shrink-0"
@@ -311,8 +311,8 @@ const Faq = () => {
             :
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 40 40"
               className="shrink-0"
@@ -336,15 +336,15 @@ const Faq = () => {
             ''
           }
         </li>
-        <li className='px-8 py-8 rounded-lg bg-[#105C04] text-[#ffffff]'>
+        <li className='px-8 py-8 rounded-sm bg-[#105C04] text-[#ffffff]'>
           <div className='flex  justify-between' onClick={() => toggleActive(7)}>
-            <h3 className='text-lg font-semibold'>Q7. What land sizes are available for purchase?</h3>
+            <h3 className='text-base font-semibold'>Q7. What land sizes are available for purchase?</h3>
             {
             active && index == 7 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="35"
-              height="35"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 35 35"
               className="shrink-0"
@@ -364,8 +364,8 @@ const Faq = () => {
             :
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 40 40"
               className="shrink-0"
@@ -389,15 +389,15 @@ const Faq = () => {
             ''
           }
         </li>
-        <li className='px-8 py-8 rounded-lg bg-[#105C04] text-[#ffffff]'>
+        <li className='px-8 py-8 rounded-sm bg-[#105C04] text-[#ffffff]'>
           <div className='flex  justify-between' onClick={() => toggleActive(8)}>
-            <h3 className='text-lg font-semibold'>Q8. Are the phases with motorable road access?</h3>
+            <h3 className='text-base font-semibold'>Q8. Are the phases with motorable road access?</h3>
             {
             active && index == 8 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="35"
-              height="35"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 35 35"
               className="shrink-0"
@@ -417,8 +417,8 @@ const Faq = () => {
             :
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 40 40"
               className="shrink-0"
@@ -442,15 +442,15 @@ const Faq = () => {
             ''
           }
         </li>
-        <li className='px-8 py-8 rounded-lg bg-[#105C04] text-[#ffffff]'>
+        <li className='px-8 py-8 rounded-sm bg-[#105C04] text-[#ffffff]'>
           <div className='flex  justify-between' onClick={() => toggleActive(9)}>
-            <h3 className='text-lg font-semibold'>Q9. What other payment do I make aside from the property payment?</h3>
+            <h3 className='text-base font-semibold'>Q9. What other payment do I make aside from the property payment?</h3>
             {
             active && index == 9 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="35"
-              height="35"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 35 35"
               className="shrink-0"
@@ -470,8 +470,8 @@ const Faq = () => {
             :
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 40 40"
               className="shrink-0"
@@ -508,15 +508,15 @@ const Faq = () => {
             ''
           }
         </li>
-        <li className='px-8 py-8 rounded-lg bg-[#105C04] text-[#ffffff]'>
+        <li className='px-8 py-8 rounded-sm bg-[#105C04] text-[#ffffff]'>
           <div className='flex  justify-between' onClick={() => toggleActive(10)}>
-            <h3 className='text-lg font-semibold'>Q10. What do I get after payment?</h3>
+            <h3 className='text-base font-semibold'>Q10. What do I get after payment?</h3>
             {
             active && index == 10 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="35"
-              height="35"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 35 35"
               className="shrink-0"
@@ -536,8 +536,8 @@ const Faq = () => {
             :
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 40 40"
               className="shrink-0"
@@ -561,15 +561,15 @@ const Faq = () => {
             ''
           }
         </li>
-        <li className='px-8 py-8 rounded-lg bg-[#105C04] text-[#ffffff]'>
+        <li className='px-8 py-8 rounded-sm bg-[#105C04] text-[#ffffff]'>
           <div className='flex  justify-between' onClick={() => toggleActive(11)}>
-            <h3 className='text-lg font-semibold'>Q11. Can I start building on the land?</h3>
+            <h3 className='text-base font-semibold'>Q11. Can I start building on the land?</h3>
             {
             active && index == 11 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="35"
-              height="35"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 35 35"
               className="shrink-0"
@@ -589,8 +589,8 @@ const Faq = () => {
             :
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 40 40"
               className="shrink-0"
@@ -614,15 +614,15 @@ const Faq = () => {
             ''
           }
         </li>
-        <li className='px-8 py-8 rounded-lg bg-[#105C04] text-[#ffffff]'>
+        <li className='px-8 py-8 rounded-sm bg-[#105C04] text-[#ffffff]'>
           <div className='flex  justify-between' onClick={() => toggleActive(12)}>
-            <h3 className='text-lg font-semibold'>Q12. Is there any time limit to commence work on my site?</h3>
+            <h3 className='text-base font-semibold'>Q12. Is there any time limit to commence work on my site?</h3>
             {
             active && index == 12 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="35"
-              height="35"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 35 35"
               className="shrink-0"
@@ -642,8 +642,8 @@ const Faq = () => {
             :
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 40 40"
               className="shrink-0"
@@ -667,15 +667,15 @@ const Faq = () => {
             ''
           }
         </li>
-        <li className='px-8 py-8 rounded-lg bg-[#105C04] text-[#ffffff]'>
+        <li className='px-8 py-8 rounded-sm bg-[#105C04] text-[#ffffff]'>
           <div className='flex  justify-between' onClick={() => toggleActive(13)}>
-            <h3 className='text-lg font-semibold'>Q13. Is there any Development Order within the estate phases? </h3>
+            <h3 className='text-base font-semibold'>Q13. Is there any Development Order within the estate phases? </h3>
             {
             active && index == 13 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="35"
-              height="35"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 35 35"
               className="shrink-0"
@@ -695,8 +695,8 @@ const Faq = () => {
             :
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 40 40"
               className="shrink-0"
@@ -720,15 +720,15 @@ const Faq = () => {
             ''
           }
         </li>
-        <li className='px-8 py-8 rounded-lg bg-[#105C04] text-[#ffffff]'>
+        <li className='px-8 py-8 rounded-sm bg-[#105C04] text-[#ffffff]'>
           <div className='flex  justify-between' onClick={() => toggleActive(14)}>
-            <h3 className='text-lg font-semibold'>Q14. Can I resell my property?</h3>
+            <h3 className='text-base font-semibold'>Q14. Can I resell my property?</h3>
             {
             active && index == 14 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="35"
-              height="35"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 35 35"
               className="shrink-0"
@@ -748,8 +748,8 @@ const Faq = () => {
             :
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 40 40"
               className="shrink-0"
@@ -775,15 +775,15 @@ const Faq = () => {
             ''
           }
         </li>
-        <li className='px-8 py-8 rounded-lg bg-[#105C04] text-[#ffffff]'>
+        <li className='px-8 py-8 rounded-sm bg-[#105C04] text-[#ffffff]'>
           <div className='flex  justify-between' onClick={() => toggleActive(15)}>
-            <h3 className='text-lg font-semibold'>Q15. Does the company help in reselling or we will have to find buyers by ourselves?</h3>
+            <h3 className='text-base font-semibold'>Q15. Does the company help in reselling or we will have to find buyers by ourselves?</h3>
             {
             active && index == 15 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="35"
-              height="35"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 35 35"
               className="shrink-0"
@@ -803,8 +803,8 @@ const Faq = () => {
             :
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 40 40"
               className="shrink-0"
@@ -828,15 +828,15 @@ const Faq = () => {
             ''
           }
         </li>
-        <li className='px-8 py-8 rounded-lg bg-[#105C04] text-[#ffffff]'>
+        <li className='px-8 py-8 rounded-sm bg-[#105C04] text-[#ffffff]'>
           <div className='flex  justify-between' onClick={() => toggleActive(16)}>
-            <h3 className='text-lg font-semibold'>Q16. Can I make the property payment to the agents or anyone linked to the company?</h3>
+            <h3 className='text-base font-semibold'>Q16. Can I make the property payment to the agents or anyone linked to the company?</h3>
             {
             active && index == 16 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="35"
-              height="35"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 35 35"
               className="shrink-0"
@@ -856,8 +856,8 @@ const Faq = () => {
             :
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 40 40"
               className="shrink-0"
@@ -881,15 +881,15 @@ const Faq = () => {
             ''
           }
         </li>
-        <li className='px-8 py-8 rounded-lg bg-[#105C04] text-[#ffffff]'>
+        <li className='px-8 py-8 rounded-sm bg-[#105C04] text-[#ffffff]'>
           <div className='flex  justify-between' onClick={() => toggleActive(17)}>
-            <h3 className='text-lg font-semibold'>Q17. Can I inspect the land before purchasing on the app?</h3>
+            <h3 className='text-base font-semibold'>Q17. Can I inspect the land before purchasing on the app?</h3>
             {
             active && index == 17 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="35"
-              height="35"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 35 35"
               className="shrink-0"
@@ -909,8 +909,8 @@ const Faq = () => {
             :
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 40 40"
               className="shrink-0"
@@ -934,15 +934,15 @@ const Faq = () => {
             ''
           }
         </li>
-        <li className='px-8 py-8 rounded-lg bg-[#105C04] text-[#ffffff]'>
+        <li className='px-8 py-8 rounded-sm bg-[#105C04] text-[#ffffff]'>
           <div className='flex  justify-between' onClick={() => toggleActive(18)}>
-            <h3 className='text-lg font-semibold'>Q18. What happens if I cannot continue with the payment? Can I get a refund? </h3>
+            <h3 className='text-base font-semibold'>Q18. What happens if I cannot continue with the payment? Can I get a refund? </h3>
             {
             active && index == 18 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="35"
-              height="35"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 35 35"
               className="shrink-0"
@@ -962,8 +962,8 @@ const Faq = () => {
             :
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 40 40"
               className="shrink-0"
@@ -987,15 +987,15 @@ const Faq = () => {
             ''
           }
         </li>
-        <li className='px-8 py-8 rounded-lg bg-[#105C04] text-[#ffffff]'>
+        <li className='px-8 py-8 rounded-sm bg-[#105C04] text-[#ffffff]'>
           <div className='flex  justify-between' onClick={() => toggleActive(19)}>
-            <h3 className='text-lg font-semibold'>Q19. If I'm ready to buy now, what is the next step? </h3>
+            <h3 className='text-base font-semibold'>Q19. If I'm ready to buy now, what is the next step? </h3>
             {
             active && index == 19 ? 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="35"
-              height="35"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 35 35"
               className="shrink-0"
@@ -1015,8 +1015,8 @@ const Faq = () => {
             :
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
+              width="24"
+              height="24"
               fill="none"
               viewBox="0 0 40 40"
               className="shrink-0"

@@ -6,7 +6,7 @@ const About = () => {
       <h2 className='text-3xl text-center text-[#ffffff] font-semibold mb-16'>About Jazã & <br />
       Sakeenah</h2>
 
-      <p className='text-[#ffffff] text-justify text-lg'>
+      <p className='text-[#ffffff] text-justify text-sm leading-8'>
         Jazã and Sakeenah is a secured digital real estate asset trading and management platform that allows everyone irrespective of their location to buy and watch over their landed property online except for the site allocation that requires physical presence at specific times where landowner/representative will be required to show up or at any future time the landowner is available. 
         <br /><br /><br />
         Simply put, this web-app is where you can buy landed property online and also get your property documents shipped to you, get the land designed, built, managed and even secured it for landbanking as long as you want. 

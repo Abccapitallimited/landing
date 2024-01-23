@@ -20,13 +20,13 @@ const Banner = () => {
         index == 0 &&
         <div className='grow text-[#ffffff] flex items-center gap-x-2'>
         <div>
-          <span className='font-semibold'>Welcome to</span>
-          <h1 className='font-semibold text-3xl'>Jazã & Sakeenah: <br />
+          <span className='font-normal mb-4'>Welcome to</span>
+          <h1 className='font-normal text-3xl'>Jazã & Sakeenah: <br />
             OWN-EARNER</h1>
 
-          <h3 className='text-xl mt-8'>
-            <span className='text-[#FFA800]'>Easy & reliable tech-access </span><br />
-            to owning landed property assets across Africa.
+          <h3 className='text-base mt-8'>
+            <span className='text-[#FFA800]'>Easy & reliable tech-access </span>to<br />
+             owning landed property assets across Africa.
           </h3>
         </div>
       </div>}
@@ -38,14 +38,14 @@ const Banner = () => {
           <h1 className='font-semibold text-3xl'>Jazã & Sakeenah: <br />
             OWN-EARNER</h1>
 
-          <h3 className='text-xl mt-8'>
+          <h3 className='text-base mt-8'>
             <span className='text-[#FFA800]'>A secured digital  </span><br />
             real estate asset trading and management platform.
           </h3>
         </div>
       </div>}
       <div className='grow'>
-        <img src="/assets/banner_image.png" alt="banner image" width={400} height={300} className='object-contain'/>
+        <img src="/assets/banner-image.png" alt="banner image" width={400} height={300} className='object-contain'/>
       </div>
     </section>
   )

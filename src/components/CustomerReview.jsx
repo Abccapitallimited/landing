@@ -22,12 +22,12 @@ const CustomerReview = () => {
         </button>
 
         <div className='flex flex-col mx-auto lg:flex-row items-center text-left gap-8 lg:gap-16'>
-          <div className='rounded-2xl bg-[#ffffff] px-8 py-8 grow'>
+          <div className='rounded-lg bg-[#ffffff] px-4 py-8 grow'>
             <figure className='flex gap-2 items-center mb-4'>
 
               <figcaption>
-                <h3 className='text-[#151D48] font-semibold'>Name</h3>
-                <span className='text-[#64A001] font-normal'>City</span>
+                <h3 className='text-[#151D48] font-semibold'>Apesinola</h3>
+                <span className='text-[#64A001] font-normal'>Co-Owner, United Kingdom</span>
               </figcaption>
             </figure>
 
@@ -35,12 +35,12 @@ const CustomerReview = () => {
             There are many variations of passages of Lorem Ipsum form, by injected humour randomised words.
             </p>
           </div>
-          <div className='rounded-2xl bg-[#ffffff] px-8 py-8 grow lg:scale-125'>
+          <div className='rounded-lg bg-[#ffffff] px-4 py-8 grow lg:scale-125'>
             <figure className='flex gap-2 items-center mb-4'>
 
               <figcaption>
-                <h3 className='text-[#151D48] font-semibold'>Name</h3>
-                <span className='text-[#64A001] font-normal'>City</span>
+                <h3 className='text-[#151D48] font-semibold'>Apesinola</h3>
+                <span className='text-[#64A001] font-normal'>Full-Owner, Dubai</span>
               </figcaption>
             </figure>
 
@@ -48,12 +48,12 @@ const CustomerReview = () => {
             There are many variations of passages of Lorem Ipsum form, by injected humour randomised words.
             </p>
           </div>
-          <div className='rounded-2xl bg-[#ffffff] px-8 py-8 grow'>
+          <div className='rounded-lg bg-[#ffffff] px-4 py-8 grow'>
             <figure className='flex gap-2 items-center mb-4'>
 
               <figcaption>
-                <h3 className='text-[#151D48] font-semibold'>Name</h3>
-                <span className='text-[#64A001] font-normal'>City</span>
+                <h3 className='text-[#151D48] font-semibold'>Apesinola</h3>
+                <span className='text-[#64A001] font-normal'>Developer, Nigeria</span>
               </figcaption>
             </figure>
 

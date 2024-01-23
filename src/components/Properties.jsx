@@ -48,8 +48,8 @@ const Properties = () => {
   return (
     <section className='px-8 lg:px-24 py-24 bg-[#FCF0DC] relative' id='properties'>
       <div className='text-center max-w-[600px] mx-auto mb-16'>
-        <h2 className='text-4xl font-semibold text-[#105C04] mb-8'>Properties</h2>
-        <p className='text-[#105C04] font-semibold text-base'>Our listed properties are verified genuine with a plethora of smart property owners already investing with us. <br /> Our own-earner property portfolio covers locations that fulfil the purpose of each listed property investment.</p>
+        <h2 className='text-2xl font-semibold text-[#105C04] mb-4'>Properties</h2>
+        <p className='text-[#105C04] font-semibold text-base'>Our listed properties are verified genuine with a plethora of smart property owners already investing with us. <br /><br /> Our own-earner property portfolio covers locations that fulfil the purpose of each listed property investment.</p>
       </div>
 
       <div>
@@ -115,7 +115,7 @@ const Properties = () => {
                     ></path>
                   </svg>
 
-                  <span>Current Price: N7.500/Unit</span>
+                  <span><strong>Current Price:</strong> N7.500/Unit</span>
                 </li>
                 <li className='flex items-center gap-x-4 py-2'>
                   <svg
@@ -131,7 +131,7 @@ const Properties = () => {
                     ></path>
                   </svg>
 
-                  <span>Title: Private C of O</span>
+                  <span><strong>Title:</strong> Private C of O</span>
                 </li>
                 <li className='flex items-center gap-x-4 py-2'>
                   <svg
@@ -157,7 +157,7 @@ const Properties = () => {
                     ></path>
                   </svg>
 
-                  <span>Location: Ilara, Epe, Lagos State, Nigeria</span>
+                  <span><strong>Location:</strong> Ilara, Epe, Lagos State, Nigeria</span>
                 </li>
                 <li className='flex items-center gap-x-4 py-2'>
                   <svg
@@ -174,11 +174,11 @@ const Properties = () => {
                     ></path>
                   </svg>
 
-                  <span>Sold Out: 19.22%</span>
+                  <span><strong>Sold Out:</strong> 19.22%</span>
                 </li>
               </ul>
 
-              <div className='flex rounded-lg bg-[#D9D9D9] w-[100%] h-[40px] mb-8'>
+              <div className='flex rounded-lg bg-[#D9D9D9] w-[100%] h-[40px] mb-16'>
                 <span className='rounded-lg bg-[#FFA800] w-[45%] h-[100%]'></span>
               </div>
 
@@ -228,7 +228,7 @@ const Properties = () => {
                     ></path>
                   </svg>
 
-                  <span>Current Price: N7.500/Unit</span>
+                  <span><strong>Current Price:</strong> N7.500/Unit</span>
                 </li>
                 <li className='flex items-center gap-x-4 py-2'>
                   <svg
@@ -244,7 +244,7 @@ const Properties = () => {
                     ></path>
                   </svg>
 
-                  <span>Title: Private C of O</span>
+                  <span><strong>Title:</strong> Private C of O</span>
                 </li>
                 <li className='flex items-center gap-x-4 py-2'>
                   <svg
@@ -270,7 +270,7 @@ const Properties = () => {
                     ></path>
                   </svg>
 
-                  <span>Location: Ilara, Epe, Lagos State, Nigeria</span>
+                  <span><strong>Location:</strong> Ilara, Epe, Lagos State, Nigeria</span>
                 </li>
                 <li className='flex items-center gap-x-4 py-2'>
                   <svg
@@ -287,11 +287,11 @@ const Properties = () => {
                     ></path>
                   </svg>
 
-                  <span>Sold Out: 19.22%</span>
+                  <span><strong>Sold Out:</strong> 19.22%</span>
                 </li>
               </ul>
 
-              <div className='flex rounded-lg bg-[#D9D9D9] w-[100%] h-[40px] mb-8'>
+              <div className='flex rounded-lg bg-[#D9D9D9] w-[100%] h-[40px] mb-16'>
                 <span className='rounded-lg bg-[#FFA800] w-[45%] h-[100%]'></span>
               </div>
 
@@ -341,7 +341,7 @@ const Properties = () => {
                     ></path>
                   </svg>
 
-                  <span>Current Price: N7.500/Unit</span>
+                  <span><strong>Current Price:</strong> N7.500/Unit</span>
                 </li>
                 <li className='flex items-center gap-x-4 py-2'>
                   <svg
@@ -357,7 +357,7 @@ const Properties = () => {
                     ></path>
                   </svg>
 
-                  <span>Title: Private C of O</span>
+                  <span><strong>Title:</strong> Private C of O</span>
                 </li>
                 <li className='flex items-center gap-x-4 py-2'>
                   <svg
@@ -383,7 +383,7 @@ const Properties = () => {
                     ></path>
                   </svg>
 
-                  <span>Location: Ilara, Epe, Lagos State, Nigeria</span>
+                  <span><strong>Location:</strong> Ilara, Epe, Lagos State, Nigeria</span>
                 </li>
                 <li className='flex items-center gap-x-4 py-2'>
                   <svg
@@ -400,11 +400,11 @@ const Properties = () => {
                     ></path>
                   </svg>
 
-                  <span>Sold Out: 19.22%</span>
+                  <span><strong>Sold Out:</strong> 19.22%</span>
                 </li>
               </ul>
 
-              <div className='flex rounded-lg bg-[#D9D9D9] w-[100%] h-[40px] mb-8'>
+              <div className='flex rounded-lg bg-[#D9D9D9] w-[100%] h-[40px] mb-16'>
                 <span className='rounded-lg bg-[#FFA800] w-[45%] h-[100%]'></span>
               </div>
 
@@ -454,7 +454,7 @@ const Properties = () => {
                     ></path>
                   </svg>
 
-                  <span>Current Price: N7.500/Unit</span>
+                  <span><strong>Current Price:</strong> N7.500/Unit</span>
                 </li>
                 <li className='flex items-center gap-x-4 py-2'>
                   <svg
@@ -470,7 +470,7 @@ const Properties = () => {
                     ></path>
                   </svg>
 
-                  <span>Title: Private C of O</span>
+                  <span><strong>Title:</strong> Private C of O</span>
                 </li>
                 <li className='flex items-center gap-x-4 py-2'>
                   <svg
@@ -496,7 +496,7 @@ const Properties = () => {
                     ></path>
                   </svg>
 
-                  <span>Location: Ilara, Epe, Lagos State, Nigeria</span>
+                  <span><strong>Location:</strong> Ilara, Epe, Lagos State, Nigeria</span>
                 </li>
                 <li className='flex items-center gap-x-4 py-2'>
                   <svg
@@ -513,11 +513,11 @@ const Properties = () => {
                     ></path>
                   </svg>
 
-                  <span>Sold Out: 19.22%</span>
+                  <span><strong>Sold Out:</strong> 19.22%</span>
                 </li>
               </ul>
 
-              <div className='flex rounded-lg bg-[#D9D9D9] w-[100%] h-[40px] mb-8'>
+              <div className='flex rounded-lg bg-[#D9D9D9] w-[100%] h-[40px] mb-16'>
                 <span className='rounded-lg bg-[#FFA800] w-[45%] h-[100%]'></span>
               </div>
 
@@ -567,7 +567,7 @@ const Properties = () => {
                     ></path>
                   </svg>
 
-                  <span>Current Price: N7.500/Unit</span>
+                  <span><strong>Current Price:</strong> N7.500/Unit</span>
                 </li>
                 <li className='flex items-center gap-x-4 py-2'>
                   <svg
@@ -583,7 +583,7 @@ const Properties = () => {
                     ></path>
                   </svg>
 
-                  <span>Title: Private C of O</span>
+                  <span><strong>Title:</strong> Private C of O</span>
                 </li>
                 <li className='flex items-center gap-x-4 py-2'>
                   <svg
@@ -609,7 +609,7 @@ const Properties = () => {
                     ></path>
                   </svg>
 
-                  <span>Location: Ilara, Epe, Lagos State, Nigeria</span>
+                  <span><strong>Location:</strong> Ilara, Epe, Lagos State, Nigeria</span>
                 </li>
                 <li className='flex items-center gap-x-4 py-2'>
                   <svg
@@ -626,11 +626,11 @@ const Properties = () => {
                     ></path>
                   </svg>
 
-                  <span>Sold Out: 19.22%</span>
+                  <span><strong>Sold Out:</strong> 19.22%</span>
                 </li>
               </ul>
 
-              <div className='flex rounded-lg bg-[#D9D9D9] w-[100%] h-[40px] mb-8'>
+              <div className='flex rounded-lg bg-[#D9D9D9] w-[100%] h-[40px] mb-16'>
                 <span className='rounded-lg bg-[#FFA800] w-[45%] h-[100%]'></span>
               </div>
 
@@ -680,7 +680,7 @@ const Properties = () => {
                     ></path>
                   </svg>
 
-                  <span>Current Price: N7.500/Unit</span>
+                  <span><strong>Current Price:</strong> N7.500/Unit</span>
                 </li>
                 <li className='flex items-center gap-x-4 py-2'>
                   <svg
@@ -696,7 +696,7 @@ const Properties = () => {
                     ></path>
                   </svg>
 
-                  <span>Title: Private C of O</span>
+                  <span><strong>Title:</strong> Private C of O</span>
                 </li>
                 <li className='flex items-center gap-x-4 py-2'>
                   <svg
@@ -722,7 +722,7 @@ const Properties = () => {
                     ></path>
                   </svg>
 
-                  <span>Location: Ilara, Epe, Lagos State, Nigeria</span>
+                  <span><strong>Location:</strong> Ilara, Epe, Lagos State, Nigeria</span>
                 </li>
                 <li className='flex items-center gap-x-4 py-2'>
                   <svg
@@ -739,11 +739,11 @@ const Properties = () => {
                     ></path>
                   </svg>
 
-                  <span>Sold Out: 19.22%</span>
+                  <span><strong>Sold Out:</strong> 19.22%</span>
                 </li>
               </ul>
 
-              <div className='flex rounded-lg bg-[#D9D9D9] w-[100%] h-[40px] mb-8'>
+              <div className='flex rounded-lg bg-[#D9D9D9] w-[100%] h-[40px] mb-16'>
                 <span className='rounded-lg bg-[#FFA800] w-[45%] h-[100%]'></span>
               </div>
 
