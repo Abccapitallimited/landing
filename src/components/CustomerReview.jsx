@@ -3,7 +3,7 @@ import React from 'react'
 const CustomerReview = () => {
   return (
     <section className='px-8 lg:px-24 py-24 bg-[#64A001] text-[#ffffff]'>
-      <h2 className='text-3xl text-center font-semibold mb-16'>What Our Customers <br /> Are Saying</h2>
+      <h2 className='text-2xl text-center font-semibold mb-16'>What Our Customers <br /> Are Saying</h2>
 
       <div className='flex items-center gap-x-2'>
         <button className='hidden'>
