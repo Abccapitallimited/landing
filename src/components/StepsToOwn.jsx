@@ -8,27 +8,27 @@ const StepsToOwn = () => {
 
         <ul className='flex flex-col gap-y-8'>
           <li className='py-4 px-8 w-[100%] bg-[#ffffff] rounded-2xl flex items-center gap-x-4 '>
-            <div className='w-12 h-12 bg-[#64A001] rounded-full flex justify-center items-center text-[#ffffff]'>1</div>
+            <div className='w-12 h-12 bg-[#64A001] rounded-full flex justify-center items-center text-[#ffffff] shrink-0'>1</div>
 
             <p className='text-lg text-[#105C04]'>Register / Login</p>
           </li>
           <li className='py-4 px-8 w-[100%] bg-[#ffffff] rounded-2xl flex items-center gap-x-4'>
-            <div className='w-12 h-12 bg-[#64A001] rounded-full flex justify-center items-center text-[#ffffff]'>2</div>
+            <div className='w-12 h-12 bg-[#64A001] rounded-full flex justify-center items-center text-[#ffffff] shrink-0'>2</div>
 
             <p className='text-lg text-[#105C04]'>Choose Category</p>
           </li>
           <li className='py-4 px-8 w-[100%] bg-[#ffffff] rounded-2xl flex items-center gap-x-4'>
-            <div className='w-12 h-12 bg-[#64A001] rounded-full flex justify-center items-center text-[#ffffff]'>3</div>
+            <div className='w-12 h-12 bg-[#64A001] rounded-full flex justify-center items-center text-[#ffffff] shrink-0'>3</div>
 
             <p className='text-lg text-[#105C04]'>Execute Your Agreement</p>
           </li>
           <li className='py-4 px-8 w-[100%] bg-[#ffffff] rounded-2xl flex items-center gap-x-4'>
-            <div className='w-12 h-12 bg-[#64A001] rounded-full flex justify-center items-center text-[#ffffff]'>4</div>
+            <div className='w-12 h-12 bg-[#64A001] rounded-full flex justify-center items-center text-[#ffffff] shrink-0'>4</div>
 
             <p className='text-lg text-[#105C04]'>Proceed to Payment</p>
           </li>
           <li className='py-4 px-8 w-[100%] bg-[#ffffff] rounded-2xl flex items-center gap-x-4'>
-            <div className='w-12 h-12 bg-[#64A001] rounded-full flex justify-center items-center text-[#ffffff]'>5</div>
+            <div className='w-12 h-12 bg-[#64A001] rounded-full flex justify-center items-center text-[#ffffff] shrink-0'>5</div>
 
             <p className='text-lg text-[#105C04]'>Update Your Information</p>
           </li>
