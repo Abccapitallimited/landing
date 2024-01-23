@@ -35,7 +35,7 @@ const StepsToOwn = () => {
         </ul>
       </div>
 
-      <div className='grow bg-[#64A001] relative w-[100%] min-h-[500px] h-[auto] bg-[url(../../public/assets/rectangle.png)] bg-no-repeat bg-center'>
+      <div className='grow bg-[#64A001] relative w-[100%] min-h-[500px] h-[auto] bg-[url(../../assets/rectangle.png)] bg-no-repeat bg-center'>
         <img src="/assets/steps.png" alt="steps" className='absolute left-0 bottom-0 w-[100%]'/>
       </div>
     </section>

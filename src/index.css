@@ -33,3 +33,16 @@ body {
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
+
+.swiper {
+  width: 100%;
+  height: auto;
+}
+
+
+.swiper-button-prev, .swiper-button-prev::after, .swiper-button-next, .swiper-button-next::after {
+  all: unset;
+  position: absolute;  
+  bottom: 0;
+  display: none;
+}

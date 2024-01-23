@@ -1,33 +1,76 @@
 import React from 'react'
+import Swiper from 'swiper';
+import { Navigation, Pagination } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
+const swiper = new Swiper('.swiper', {
+  // configure Swiper to use modules
+  modules: [Navigation, Pagination],
+  // Optional parameters
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+  // Default parameters
+  slidesPerView: 1,
+  spaceBetween: 10,
+  // Responsive breakpoints
+  breakpoints: {
+    // when window width is >= 320px
+    480: {
+      slidesPerView: 1,
+      spaceBetween: 20
+    },
+    // when window width is >= 480px
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 30
+    },
+    // when window width is >= 640px
+    1200: {
+      slidesPerView: 3,
+      spaceBetween: 40
+    }
+  },
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+})
 
 const NewsUpdate = () => {
   return (
     <section className='bg-[#EDF8F6] px-8 lg:px-24 py-24'>
       <h2 className='text-3xl text-center text-[#105C04] font-semibold mb-16'>News & Update</h2>
 
-      <div className='flex items-center gap-x-4'>
-      <button className='hidden lg:block'>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="50"
-          height="50"
-          fill="none"
-          viewBox="0 0 50 50"
-        >
-          <path
-            fill="#105C04"
-            d="M25 42c-9.4 0-17-7.6-17-17S15.6 8 25 8s17 7.6 17 17-7.6 17-17 17zm0-32c-8.3 0-15 6.7-15 15s6.7 15 15 15 15-6.7 15-15-6.7-15-15-15z"
-          ></path>
-          <path
-            fill="#105C04"
-            d="M25.3 34.7L15.6 25l9.7-9.7 1.4 1.4-8.3 8.3 8.3 8.3-1.4 1.4z"
-          ></path>
-          <path fill="#105C04" d="M17 24h17v2H17v-2z"></path>
-        </svg>
-      </button>
+      <div className='swiper'>
+        <button className='swiper-button-prev'>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="none"
+            viewBox="0 0 50 50"
+          >
+            <path
+              fill="#105C04"
+              d="M25 42c-9.4 0-17-7.6-17-17S15.6 8 25 8s17 7.6 17 17-7.6 17-17 17zm0-32c-8.3 0-15 6.7-15 15s6.7 15 15 15 15-6.7 15-15-6.7-15-15-15z"
+            ></path>
+            <path
+              fill="#105C04"
+              d="M25.3 34.7L15.6 25l9.7-9.7 1.4 1.4-8.3 8.3 8.3 8.3-1.4 1.4z"
+            ></path>
+            <path fill="#105C04" d="M17 24h17v2H17v-2z"></path>
+          </svg>
+        </button>
 
-      <div className='flex flex-col lg:flex-row items-center text-left gap-8'>
-        <figure className='rounded-2xl bg-[#105C04] grow'>
+      <div className='swiper-wrapper text-left'>
+        <figure className='swiper-slide rounded-2xl bg-[#105C04]'>
           <img src="/assets/news.jpg" alt="team image" className='rounded-t-2xl object-cover w-[100%] h-[250px] object-top'/>
 
           <figcaption className='px-8 py-8 text-[#ffffff]'>
@@ -50,7 +93,7 @@ const NewsUpdate = () => {
 
           </figcaption>
         </figure>
-        <figure className='rounded-2xl bg-[#105C04] grow'>
+        <figure className='swiper-slide rounded-2xl bg-[#105C04]'>
           <img src="/assets/news.jpg" alt="team image" className='rounded-t-2xl object-cover w-[100%] h-[250px] object-top'/>
 
           <figcaption className='px-8 py-8 text-[#ffffff]'>
@@ -73,7 +116,7 @@ const NewsUpdate = () => {
 
           </figcaption>
         </figure>
-        <figure className='rounded-2xl bg-[#105C04] grow'>
+        <figure className='swiper-slide rounded-2xl bg-[#105C04]'>
           <img src="/assets/news.jpg" alt="team image" className='rounded-t-2xl object-cover w-[100%] h-[250px] object-top'/>
 
           <figcaption className='px-8 py-8 text-[#ffffff]'>
@@ -98,7 +141,7 @@ const NewsUpdate = () => {
         </figure>
       </div>
 
-      <button className='hidden lg:block'>
+      <button className='swiper-button-next'>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="50"

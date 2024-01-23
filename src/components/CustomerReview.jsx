@@ -6,7 +6,7 @@ const CustomerReview = () => {
       <h2 className='text-3xl text-center font-semibold mb-16'>What Our Customers <br /> Are Saying</h2>
 
       <div className='flex items-center gap-x-2'>
-        <button className='hidden lg:block'>
+        <button className='hidden'>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="80"
@@ -21,7 +21,7 @@ const CustomerReview = () => {
           </svg>
         </button>
 
-        <div className='flex flex-col lg:flex-row items-center text-left gap-8 lg:gap-16'>
+        <div className='flex flex-col mx-auto lg:flex-row items-center text-left gap-8 lg:gap-16'>
           <div className='rounded-2xl bg-[#ffffff] px-8 py-8 grow'>
             <figure className='flex gap-2 items-center mb-4'>
 
@@ -63,7 +63,7 @@ const CustomerReview = () => {
           </div>
         </div>
 
-        <button className='hidden lg:block'>
+        <button className='hidden'>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="80"
